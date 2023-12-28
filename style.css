@@ -1,0 +1,143 @@
+body {
+    /* background-color: rgb(138, 138, 138); */
+    color: white;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-image: url(imagens/foto.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body__div  {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* PARTE DO HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    border-bottom: 1px solid yellow;
+}
+
+.header__logo {
+    font-size: 30px;
+    margin: 0;
+}
+
+.header-nav__ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav__ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.header-nav__ul a {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+a.header-nav__a {
+    background-color: yellow;
+    color: black;
+}
+
+/* PARTE DO TITTLE */
+
+.divtittle {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 1px 2px rgb(0, 0, 0);
+}
+
+/* PARTE DA SECTION */
+
+.section {
+    display: flex;
+}
+
+.section__div {
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 20px;
+    margin: 0 7px;
+}
+
+.section__div h3 {
+    font-size: 20px;
+    margin: 0;
+    border-bottom: 1px solid yellow;
+    padding-bottom: 7px;
+}
+
+.section__span {
+    font-size: 20px;
+}
+
+.section__div p {
+    font-size: 11px;
+}
+
+.section__div h3 {
+    text-transform: capitalize;
+}
+
+.section__a {
+    padding: 8px;
+    background-color: yellow;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.section__ul {
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.section__p {
+    margin: 10px 0 8px;
+}
+
+/* PARTE DE LEVES ANIMACOES */
+
+.divtittle__span:hover {
+    color: yellow;
+}
+
+.header__nav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.section__a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid yellow;
+    padding: 7px;
+}
+
+.header__logo:hover {
+    color: rgb(245, 245, 245);
+}
+
+/* PROJETO DE EXERCÍCIO QUE DE INICIO SERIA UMA PÁGINA DE PLANOS DE UM SERVIDOR / BANCO DE DADOS. ALTEREI PARA UM SIMPLES SITE PARA UMA EMPRESA DE TRANSPORTES.  */
